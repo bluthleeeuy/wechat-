@@ -1,0 +1,177 @@
+@charset "utf-8";
+.a-delay500ms{
+	animation-delay: 500ms;
+	
+}
+.a-delay1500ms{
+	animation-delay: 1500ms;
+	
+}
+.a-delay2500ms{
+	animation-delay: 2500ms;
+	
+}
+.a-delay6000ms{
+	animation-delay: 6000ms;
+	
+}
+.a-delay6500ms{
+	animation-delay: 6500ms;
+	
+}
+.a-delay7500ms{
+	animation-delay: 7500ms;
+	
+}
+.a-delay2s{
+	animation-delay: 2s;
+	
+}
+@keyframes toTop{
+	0%{transform: translateY(0%);}
+	100%{transform: translateY(-100%);}
+}
+.toTop{
+	animation: toTop 0.5s both linear;
+}
+@keyframes toBottom{
+	0%{transform: translateY(0%);}
+	100%{transform: translateY(100%);}
+}
+.toBottom{
+	 animation: toBottom 0.5s both linear;
+	
+}
+@keyframes nextTop{
+	0%{transform: translateY(100%);}
+	100%{transform: translateY(0%);}
+}
+.nextTop{
+	
+	animation: nextTop 0.5s both linear;
+}
+@keyframes preBottom{
+	0%{transform: translateY(-100%);}
+	100%{transform: translateY(0%);}
+}
+.preBottom{
+	animation: preBottom 0.5s both linear;
+}
+
+@keyframes roll{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+.music{
+	animation: roll 2s linear infinite;
+	
+}
+@keyframes upDown{
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(-50px);}
+	100%{transform: translateY(0px);}
+}
+.up{
+	animation: upDown 2s linear infinite;
+	
+}
+
+@keyframes rotate{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(30deg);}
+	75%{transform: rotate(-30deg);}
+	100%{transform: rotate(0deg);}
+}
+.hua{
+	animation: rotate 2s linear infinite; 
+	
+	
+}
+@keyframes fangda{
+	0%{transform: scale(1);}
+	50%{transform: scale(0.8);}
+	100%{transform: scale(1);}
+}
+.yun{
+	animation: fangda 2s linear infinite;
+	
+	
+}
+
+@keyframes flyIn{
+	0%{transform: translateY(-100%) scale(0);}
+	50%{transform: translateY(0%) scale(0.5);}
+	100%{transform: translateY(0%) scale(1);}
+}
+.fj{
+	animation: flyIn 2s both linear;
+	
+}
+.flyIn{
+	animation: flyIn 2s both linear;	
+}
+.scale{
+	
+	animation: fangda 2s linear infinite;    
+}
+@keyframes fadeIn{
+	0%{ opacity: 0;}
+	100%{ opacity: 1;}
+}
+.fadeIn{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+
+
+@keyframes go{
+	0%{transform: translateX(0%);}
+	100%{transform: translateX(-100%);}
+}
+.go{
+	animation: go 2s both linear 3500ms;
+	
+	
+}
+
+@keyframes zhui{
+	0%{right: -30%;}
+	100%{right: 30%}
+	}
+.zhui{
+	animation: zhui 2s both linear 3100ms;
+	
+}
+@keyframes zi1{
+	0%{width: 0%;}
+	100%{width: 55%;}
+}
+.zil{
+	animation-name: zi1;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+@keyframes zi2{
+	0%{width: 0%;}
+	100%{width: 60%;}
+}
+.zi2{
+	animation-name: zi2;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+
+
+
+@keyframes fadeOut{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+.fadeOut{
+	animation: fadeOut 1s both linear;
+	
+}
